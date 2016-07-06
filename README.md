@@ -15,7 +15,7 @@
 
 ## Installation
 
-Download the latest version at the [Releases](https://github.com/sidneys/pushbullet-desktop/releases)  page.
+Download the latest version at the [Releases](https://github.com/sidneys/live-wallpaper-ecorp/releases)  page.
 
 ## Installation via Node
 
