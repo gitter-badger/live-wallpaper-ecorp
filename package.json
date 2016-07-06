@@ -1,6 +1,6 @@
 {
   "name": "live-wallpaper-ecorp",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Electron-based live wallpaper showing a glitched E Corp / Evil Corp logo.",
   "license": "MIT",
   "main": "./app/index.js",
@@ -26,10 +26,42 @@
     "node": ">=6.0.0"
   },
   "scripts": {
-    "debug": "electron ./app"
+    "debug": "electron ./app",
+    "build": "node ./lib/build.js -- "
+  },
+  "dependencies": {
+    "app-root-path": "^1.2.1",
+    "chalk": "^1.1.3",
+    "lodash": "^4.13.1"
   },
   "devDependencies": {
+    "app-root-path": "^1.2.1",
+    "appdmg": "^0.4.5",
     "electron": "^0.4.1",
-    "electron-prebuilt": "^1.2.5"
+    "electron-installer-debian": "^0.3.0",
+    "electron-packager": "^7.2.0",
+    "electron-prebuilt": "^1.2.5",
+    "electron-winstaller": "^2.3.1",
+    "filesize": "^3.3.0",
+    "git-rev-sync": "^1.6.0",
+    "rimraf": "^2.5.3",
+    "say": "^0.9.0",
+    "semver-utils": "^1.1.1",
+    "zip-paths": "^0.3.1"
+  },
+  "build": {
+    "productName": "live-wallpaper-ecorp",
+    "productDescription": "Live Wallpaper",
+    "id": "de.sidneys.live-wallpaper-ecorp",
+    "company": "sidneys.github.io",
+    "category": "public.app-category.utilities",
+    "electronVersion": "1.2.5",
+    "platforms": [
+      "darwin"
+    ],
+    "directoryCache": "build/cache",
+    "directoryStaging": "build/staging",
+    "directoryRelease": "build/release",
+    "iconUrl": "https://github.com/sidneys/live-wallpaper-ecorp/raw/master/icons/win32/icon-app.ico"
   }
 }
