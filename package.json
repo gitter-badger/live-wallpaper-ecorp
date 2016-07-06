@@ -31,7 +31,7 @@
   "scripts": {
     "debug": "electron ./app",
     "build": "node ./lib/build.js -- ",
-    "publish": "node ./lib/publish.js -- "
+    "upload": "node ./lib/publish.js -- "
   },
   "dependencies": {
     "app-root-path": "^1.2.1",
