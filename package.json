@@ -1,9 +1,8 @@
 {
   "name": "live-wallpaper-ecorp",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Electron-based live wallpaper showing a glitched E Corp / Evil Corp logo.",
   "license": "MIT",
-  "main": "./app/index.js",
   "author": {
     "name": "sidneys",
     "url": "http://sidneys.github.io"
@@ -25,9 +24,14 @@
   "engines": {
     "node": ">=6.0.0"
   },
+  "main": "./app/index.js",
+  "bin": {
+    "live-wallpaper-ecorp" : "./app/index.js"
+  },
   "scripts": {
     "debug": "electron ./app",
-    "build": "node ./lib/build.js -- "
+    "build": "node ./lib/build.js -- ",
+    "publish": "node ./lib/publish.js -- "
   },
   "dependencies": {
     "app-root-path": "^1.2.1",
@@ -40,7 +44,7 @@
     "electron": "^0.4.1",
     "electron-installer-debian": "^0.3.0",
     "electron-packager": "^7.2.0",
-    "electron-prebuilt": "^1.2.5",
+    "electron-prebuilt": "^1.2.6",
     "electron-winstaller": "^2.3.1",
     "filesize": "^3.3.0",
     "git-rev-sync": "^1.6.0",
@@ -55,7 +59,7 @@
     "id": "de.sidneys.live-wallpaper-ecorp",
     "company": "sidneys.github.io",
     "category": "public.app-category.utilities",
-    "electronVersion": "1.2.5",
+    "electronVersion": "1.2.6",
     "platforms": [
       "darwin"
     ],

@@ -5,15 +5,17 @@
 
 ## Screencast
 
-![alt text](https://i.redd.it/tkotc6oqjh7x.gif)
+![live-wallpaper-ecorp](https://i.redd.it/tkotc6oqjh7x.gif)
 
-## Platforms
+## Caveats
 
-OSX only so far.
+ - Currently OSX only
+ -  Currently only supports the primary display
+ - Features a menubar item for quitting the application
 
 ## Installation
 
-Download the latest release at the [Releases](https://github.com/sidneys/pushbullet-desktop/releases)  page.
+Download the latest version at the [Releases](https://github.com/sidneys/pushbullet-desktop/releases)  page.
 
 ## Installation via Node
 
