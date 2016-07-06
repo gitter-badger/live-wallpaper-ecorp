@@ -1,6 +1,6 @@
 {
   "name": "live-wallpaper-ecorp",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Electron-based live wallpaper showing a glitched E Corp / Evil Corp logo.",
   "license": "MIT",
   "author": {
@@ -26,7 +26,7 @@
   },
   "main": "./app/index.js",
   "bin": {
-    "live-wallpaper-ecorp" : "./app/index.js"
+    "live-wallpaper-ecorp": "./app/index.js"
   },
   "scripts": {
     "debug": "electron ./app",
