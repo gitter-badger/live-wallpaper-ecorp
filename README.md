@@ -22,7 +22,7 @@ Download the latest version at the [Releases](https://github.com/sidneys/live-wa
 Install the module globally
 
 ```
-npm --global live-wallpaper-ecorp
+npm install --global live-wallpaper-ecorp
 ```
 Run it
 
@@ -33,4 +33,4 @@ live-wallpaper-ecorp
 
 ___
 
-[![badge](https://nodei.co/npm/live-wallpaper-ecorp.png?downloads=false)](https://www.npmjs.com/package/live-wallpaper-ecorp)
+[![badge](https://nodei.co/npm/live-wallpaper-ecorp.png?downloads=true)](https://www.npmjs.com/package/live-wallpaper-ecorp)
